@@ -1,5 +1,5 @@
 import 'package:experimental_app/firebase_options.dart';
-import 'package:experimental_app/firebase_practise/resetPage.dart';
+import 'package:experimental_app/firebase_practise/login_page.dart';
 import 'package:experimental_app/providers/valueProvider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -19,10 +19,10 @@ class MyApp extends ConsumerWidget {
     return const MaterialApp(
       // home: pageIndex == 0 ? TodoListPage() : TodoDetailPage(pageIndex - 1),
       // home: HttpListPage(),
-      // home: LoginPage(),
+      home: LoginPage(),
       // home: MyStatefulWidget(),
       // home: TodoListPage(),
-      home: Resetpage(),
+      // home: Resetpage(),
     );
   }
 }

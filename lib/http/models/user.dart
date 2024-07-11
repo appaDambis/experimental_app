@@ -29,3 +29,9 @@ class User {
     return '${name.title} ${name.first} ${name.last}';
   }
 }
+
+class User1 {
+  final String email;
+
+  User1({required this.email});
+}
